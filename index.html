@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:350,450,550" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>WhatsApp</title>
+  </head>
+  
+  <body>
+    <div class="d-flex" id="d-flex1" style="position:fixed;top:0px;z-index:3;width:100%">
+      <div class="">
+          <a href="#" style="font-size:25px;padding-left:5px"><b>WhatsApp</b></a></div>
+      <div class="ml-auto p-2"><a class="" href="#"><i class="fas fa-search" style="font-size:25px;padding-right:25px">
+              </i></a></div>
+      <div class="p-2"><a class="" href="#"><i class="fas fa-ellipsis-v" style="font-size:25px"></i></a></div>
+    </div>
+
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist" style="position:fixed;top:75px;z-index:2;width:100%;
+           font-size:3vh">
+        <a style="width:25vw" class="nav-item nav-link active col-md-3 text-center" id="nav-all-chat" data-toggle="tab" 
+           href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All Chats</a>
+        <a style="width:25vw" class="nav-item nav-link col-md-3 text-center" id="nav-unread-chat" data-toggle="tab" 
+           href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Unread Chats 
+            <i class="fa fa-circle"></i>
+        </a>
+        <a style="width:25vw" class="nav-item nav-link col-md-3 text-center" id="nav-individual-chat" data-toggle="tab" 
+           href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Individual Chat</a>
+        <a style="width:25vw" class="nav-item nav-link col-md-3 text-center" id="nav-profile-tab" data-toggle="tab" 
+           href="#nav-profile-pic" role="tab" aria-controls="nav-profile-pic" aria-selected="false">Profile Page</a>
+      </div>
+    </nav>
+      
+    <div class="tab-content" id="nav-tabContent" style="position:relative;top:120px">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-all-chat">
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="arrow.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Arrow</h6>
+                I am the Green Arrow
+              </div>
+              <div class="flex text-right" style="">
+                <span><p style="color:#99A3A4;">04 : 00</p></span>
+              </div>
+          </div>
+        </div>  
+          
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="oliver.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Oliver Queen</h6>
+                I am the mayor of star city 
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">05 : 10</p></span>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="felicity.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Felicity Smoak</h6>
+                I am the best computer geek ever!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">05 : 34</p></span>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="john.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>John Diggle</h6>
+                I am the Green Arrow's right hand
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">05 : 45</p></span>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="laurel.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Laurel Lance</h6>
+                I can scream too loud!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">06 : 18</p></span>
+              </div>
+          </div>
+        </div>
+       
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="quentin.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Quentin Lance</h6>
+                I am the police captain of Star City!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">07 : 20</p></span>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-unread-chat">
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="vigilante.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Vigilantes group</h6>
+                Flash: I am coming fast to save you!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#25D366;">Just Now</p></span>
+                <div class="numberCircle float-right">4</div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="oliver.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Oliver Queen</h6>
+                I am just a mayor, not a vigilante!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#25D366;">Yesterday</p></span>
+                <div class="numberCircle float-right">1</div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="felicity.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Felicity Smoak</h6>
+                I am the best computer geek ever!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">05 : 34</p></span>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="john.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>John Diggle</h6>
+                I am the Green Arrow's right hand
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">05 : 45</p></span>
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="laurel.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Laurel Lance</h6>
+                I can scream too loud!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">06 : 18</p></span>
+              </div>
+          </div>
+        </div>
+       
+        <div class="card">
+          <div class="card-body d-flex flex-row">
+              <div class="flex" style="padding:0px 55px 0px 10px">
+                <img src="quentin.jpe" style="height:50px;border-radius:50%;" alt="">
+              </div>
+              <div class="flex-grow-1 text-left">
+                <h6>Quentin Lance</h6>
+                I am the police captain of Star City!
+              </div>
+              <div class="flex text-right">
+                <span><p style="color:#99A3A4;">07 : 20</p></span>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="tab-pane fade" style="background-color:#ECE5DD;" id="nav-contact" role="tabpanel" 
+           aria-labelledby="nav-individual-chat">
+        <div class="d-flex flex-column" style="background-color:#ECE5DD;">
+          <div class="ml-auto" style="border-radius: 8px;font-size: 22px;margin:20px 20px;padding:8px 8px;
+               background-color:#DCF8C6">
+              Hey dude! &nbsp&nbsp <span style="color:#A9A9A9">14:10</span>&nbsp&nbsp<i class="fas fa-check" 
+                                                                                        style="color:#34B7F1">                 
+              </i>
+          </div>
+          <div class="mr-auto" style="border-radius: 8px;font-size: 22px;margin:20px 20px;padding:8px 8px;
+               background-color:white">
+            What's up?! &nbsp&nbsp <span style="color:#A9A9A9">14:10</span>
+          </div>
+          <div class="ml-auto" style="border-radius: 8px;font-size: 22px;margin:20px 20px;padding:8px 8px;
+               background-color:#DCF8C6">
+            Shall we go out tonight? &nbsp&nbsp <span style="color:#A9A9A9">14:11</span>&nbsp&nbsp<i 
+                class="fas fa-check" style="color:#34B7F1"></i>
+          </div>
+          <div class="mr-auto" style="border-radius: 8px;font-size: 22px;margin:20px 20px;padding:8px 8px;
+               background-color:white">
+            Ya sure! &nbsp&nbsp <span style="color:#A9A9A9">14:11</span>
+          </div>
+          <div class="ml-auto" style="border-radius: 8px;font-size: 22px;margin:20px 20px;padding:8px 8px;
+               background-color:#DCF8C6">
+            Great, I'll pick you up at 8! &nbsp&nbsp <span style="color:#A9A9A9">14:12</span>&nbsp&nbsp<i 
+                class="fas fa-check" 
+                                                                                          style="color:#34B7F1"></i>
+          </div>
+          <div class="mr-auto" style="border-radius: 8px;font-size: 22px;margin:20px 20px;padding:8px 8px;
+               background-color:white">
+            Cool,done!  &nbsp&nbsp <span style="color:#A9A9A9">14:13</span>
+          </div>
+          
+          <br>
+          <br>
+          <br>
+          
+          <div class="float-left" style="position: fixed;bottom:10px;left:20px;width:calc(100% - 120px);
+               border-radius: 8px;font-size: 22px;padding:14px 8px;background-color:white">
+            <span style="padding:0px 10px;"><i class="far fa-smile" style="cursor: pointer;"></i> <i 
+                    class="fas fa-camera float-right" style="padding:5px 10px 0px 0px;cursor: pointer;"></i></span>
+          </div>
+          <div class="float-right" style="cursor: pointer;color:white;position: fixed;bottom:10px;right:20px;
+               border-radius: 50%;font-size: 22px;margin:0;padding:14px 22px;background-color:#006400">
+            <i class="fas fa-microphone"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade" style="background-color:#F8F9F9" id="nav-profile-pic" role="tabpanel" 
+           aria-labelledby="nav-profile-tab">
+        <div style="position:relative;padding-top:40px;">
+          <img src="satish.jpg" class=" mx-auto d-block" style="height:200px;border-radius:50%;
+               box-shadow: -2px 3px 17px -1px rgba(0,0,0,0.53);" alt="">
+          <div class="" style="border-radius: 50%;height:50px;width:50px;background-color:#006400;
+               position:absolute;
+               bottom:0px;left:54%;cursor:pointer">
+            <i class="fas fa-camera" style="font-size:24px;position:relative;top:26%;left:25%;color:white;"></i>
+          </div>
+
+        </div>
+          
+        <div class="card" style="margin-top:40px;padding-left:20px;">
+          <div class="card-body" style="font-size:22px">
+            Satish Srinivas <i class="far fa-edit float-right"></i>
+          </div>
+        </div>
+          
+        <div class="text-muted" style="margin:10px 0px 0px 20px;">
+          This is not your username or pin. This name will be visible to your whatsapp contacts.
+        </div>
+        <div class="card" style="margin:40px 0px 20px 0px;padding-left:20px;">
+          <div class="card-body">
+            <p style="color:#25D366;font-size:20px;padding-bottom:10px">About and phone number:</p>
+            Eat->Play->Code->Sleep->Repeat
+            <hr>
+            +91-9999999999
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">              
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" 
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" 
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+    </script>
+  </body>
+</html>
