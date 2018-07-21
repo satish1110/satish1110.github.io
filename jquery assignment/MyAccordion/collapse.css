@@ -1,0 +1,31 @@
+.accordion {
+    background-color:green;
+    color: #444;
+    padding: 19px;
+    width: 100vw;
+    text-align: left;
+    border: none;
+    outline: none;
+   
+}
+
+
+.active,.accordion:hover {
+    background-color: red;
+}
+
+.innerPanel {
+    padding: 0 18px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
+
+.collapse{
+    display: flex;
+    flex-wrap: wrap;
+     background-color: skyblue;
+     border-radius: 5px;
+     border:2px solid rgb(94, 184, 214);
+     margin-bottom: 10px;
+}
