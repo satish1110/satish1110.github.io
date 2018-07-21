@@ -17,7 +17,7 @@
 .innerPanel {
     padding: 0 18px;
     background-color: white;
-    display: flex;
+    display: none;
     overflow: hidden;
 }
 
