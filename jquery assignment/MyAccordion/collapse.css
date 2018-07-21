@@ -6,6 +6,8 @@
     text-align: left;
     border: none;
     outline: none;
+    collapsible: true;
+    active: false;
    
 }
 
