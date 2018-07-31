@@ -1,0 +1,18 @@
+{
+		orderId: "o12",
+		userId: "a12",
+		productId: "p12",
+		quantity: 1,
+		primeOrder: 1,
+		isDelivered: 0,
+		expectedDate: "27/03/18",
+		currentLocation: "Amazon centre, Delhi",
+		paymentMethod: "COD",
+		couponsApplied:
+		[
+			{cid: : "c12"},
+			{cid: "c13"}
+		
+		],
+		finalAmount: 30000
+}

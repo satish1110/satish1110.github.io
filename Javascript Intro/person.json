@@ -1,0 +1,41 @@
+{
+		"userId": "a1",
+		"firstName": "Satish",
+		"lastName": "Srinivas",
+		"emailId": "rsatish57@gmail.com",
+		"mobilNumber": 8344723644,
+		"isPrimeMember": 1,
+		"addresses":
+		[
+		 {
+			"doorNo": "6E",
+			"houseName": "Ramani flats",
+			"street": "28th street",
+			"area": "Indra nagar",
+			"locality": "Adyar",
+			"city": "Chennai"
+                 },
+		 {
+			"doorNo": "7E",
+			"houseName": "Ramani flats",
+			"street": "28th street",
+			"area": "Indra nagar",
+			"locality": "Adyar",
+			"city": "Chennai"
+                  }
+		],
+		"totalOrders": 2,
+		"pendingOrders": 1,
+		"orders":
+		[
+			{"oid": "012"},
+			{"oid": "013"}
+		
+		],
+		"amazonPayBalance": 0
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+{
+		productId: "p123",
+		title: "One Plus 5T",
+		description: "The most trending smartphone in the market",
+		price: "32999"
+		color: "Midnight black",
+		releaseDate: "27/11/2017",
+		primeEligible: 1,
+		replacementDays: 10,
+		technicalDetails:
+		{
+			os: "Android",
+			ram: "6gb",
+			weight: "163g",
+			camera: "16mp",
+			internalMemory: "64gb"
+		
+		},
+		rating: 4.6,
+		reviews:
+		[
+			{
+				userId: "a12",
+				rating: 4,
+				description: "Pros:... Cons:..."
+			
+			},
+			{
+				userId: "a13",
+				rating: 5,
+				description: "Pros:... Cons:..."
+			
+			}
+		
+		]
+		
+}
+

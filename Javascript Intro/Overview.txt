@@ -1,0 +1,10 @@
+* I have included 3 json files, for the objects: person, product and order for the ecommerce website. I have written for a single user object for these.
+  They can also be written as array for multiple users.
+* My Javascript file is Assignment.js and it uses the pokemon json file: 
+  -It has an asynchronous JS function loadJSON() which is used to load content from external JSON file. 
+   I have described the usage of each line in the function in comments.
+  -The main driver function is getPokemon(). It first calls loadJSON() from which it gets the person JSON object as response.
+    It then uses it in the 3 required functions: findByName(), isNextEvolution(), isWeakness().
+* Finally to test these files I have used Assignment.html which calls getPokemon() on loading its body. I developed them using Netbeans IDE and
+  ran the result in Google Chrome browser.
+ 
