@@ -1,0 +1,99 @@
+:root {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#aboutMe {background-color: coral;}
+#techInterests {background-color: blueviolet;}
+#workExperience {background-color: orange;}
+#webProjects {background-color: skyblue;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+}
+
+.banner .card {
+    background: #008000;
+    border: 1px solid #008000;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .card .heading {
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding: 5vw;
+}
+
+.banner .card .sub-heading {
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 5vw 2vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.row .my-image {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 22vw;
+}
+
+
+.row .tech-image {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 28vw;
+}
+
+
+.paragraph {
+    color: #000000;
+    font-family: "Istok Web", sans-serif;
+    padding: 5vw 5vw 5vw 0;
+}
+
+.icon-group {
+    margin-top: 2vh;
+}
+
+.icon-group .icon {
+    margin-right: 10px;
+    width: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+    .row {
+        flex-direction: column;
+    }
+    .row .image {
+        order: -1;
+    }
+    .row .my-image {
+        width: 50%;
+    }
+    
+    .row .tech-image{
+        width: 60%
+        
+    }
+}
+
