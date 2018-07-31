@@ -1,0 +1,15 @@
+* I have included 1 json file, for the Big Bang Theory episode.
+
+* My first Javascript file is A2-ConvertJS.js :
+- The main driver function is convertToJS(). It calls the function checkLogin() which uses the function checkLoginES6()
+  and the function sortArray() which uses the function bubbleSortES6(). I have described the usage of lines in the function in comments.
+
+* My second Javascript file is A2-BBT.js and it uses the BBT json file: 
+- It has an asynchronous JS function loadJSON() which is used to load content from external JSON file. 
+  I have described the usage of each line in the function in comments.
+- The main driver function is getDetails(). It first calls loadJSON() from which it gets the person JSON object as response.
+  It then uses it in the 3 required functions: findByName(), findByEpisodeId(), findBySidEid().
+
+* Finally to test these files I have used A2-ConvertJS.html and A2-BBT.html. I developed them using Netbeans IDE and
+  ran the result in Google Chrome browser.
+	
